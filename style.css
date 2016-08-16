@@ -1,0 +1,42 @@
+.jumbotron .media-object{
+	background: url("header.png") no-repeat;
+	height: 133px;
+	width: 158px;
+	margin-left: 20px;
+	margin-right: 30px;
+}
+.jumbotron{
+	font-family: 'Quicksand';
+	font-size: 62px;
+	text-shadow: -4px 4px 4px #aaa;
+}
+
+div.sidebar{
+	position: fixed;
+}
+
+.sidebar .text{
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	font-size: 1.2vw;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+.sidebar .title{
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 2.7vw;
+	padding-bottom: 10px;
+}
+
+div.main{
+	float: right;
+}
+.main .title{
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 3vw;
+	padding-bottom: 20px;
+}
+
+

@@ -1,0 +1,61 @@
+<html>
+	<head>
+	<link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<title> MARA Builder Application</title>
+	</head>
+	<body>
+
+		<div class="jumbotron">
+			<div class="media">
+				<div class="media-left">
+					<div class="media-object"></div>
+				</div>
+				<div class="media-body">
+					<h1 class="media-heading">MARA Builder Application</h1>
+					<blockquote>
+						<p>Create your customized augmented reality experience in 4 simple steps.</p>
+					</blockquote>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+		<div class="col-xs-3 col-md-3 sidebar">
+			<div class="title">Instructions</div>
+			<div class="text">Step One:<br> Upload your desired target image file</div>
+			<div class="text">Step Two:<br> Upload image(s) that you wish to augment</div>
+			<div class="text">Step Three:<br> Drag and drop where you desire the object to be augmented on the target file</div>
+			<div class="text">Final Step:<br> Click on generate to generate your package file!</div>
+		</div>
+
+		<div class="col-xs-9 col-md-9 main">
+			<div class="title">Step One</div>
+			<form action="demo_form.asp">
+  			<input type="file" name="pic" accept="image/*">
+  			<input type="submit">
+			</form>
+			<div class="title">Step Two</div>
+			<form action="demo_form.asp">
+  			<input type="file" name="pic" accept="image/*">
+  			<input type="submit">
+			</form>
+			<div class="title">Step Three</div>
+			<p><--Drag and drop object onto image. Obtain x,y location and scale</p>
+
+			<div class="title">Final Step</div>
+				<button type="button" class="btn btn-primary center-block">
+					Generate
+				</button>		
+			</div>
+	</div>
+
+	</body>
+</html>
+
+<!--THINGS TO FIX
+1. DIFFERENT BROWSER SIZE SHOULD SHOW THE PAGE WITHOUT OVERFLOWING
+2. GENERATE BUTTON MOVE TO THE CENTER
+ --> 
